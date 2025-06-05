@@ -39,6 +39,7 @@ app.use('/api', accesoRoutes )
 app.use('/api', authRoutes)
 app.use('/api', usuariosRoutes)
 app.use('/api', prodcutosRoutes)
+app.use('/api', reporteRoutes)
 app.use('/api', pedidosRoutes)
 app.use('/api', imagenRoutes)
 
