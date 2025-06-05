@@ -1,6 +1,6 @@
 import express from 'express';
 import multer from 'multer';
-import { registrarProducto, registrarTalla } from '../controladores/productoCtrl.js';
+import { registrarProducto, registrarTalla } from '../controladores/prodcutoCtrl.js';
 import { subirImagenes } from '../controladores/imagenCtrl.js';
 const router = express.Router();
 const upload = multer({ dest: 'uploads/' });
